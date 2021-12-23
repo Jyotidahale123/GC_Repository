@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18163" started-at="2021-12-23T14:57:19 IST" finished-at="2021-12-23T14:57:38 IST">
+  <suite name="Suite" duration-ms="24722" started-at="2021-12-23T16:48:27 IST" finished-at="2021-12-23T16:48:52 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18163" started-at="2021-12-23T14:57:19 IST" finished-at="2021-12-23T14:57:38 IST">
+    <test name="Test" duration-ms="24722" started-at="2021-12-23T16:48:27 IST" finished-at="2021-12-23T16:48:52 IST">
       <class name="TestNG_Classes.First_Class">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_Classes.First_Class@7ce6a65d]" name="f" duration-ms="9630" started-at="2021-12-23T14:57:20 IST" finished-at="2021-12-23T14:57:29 IST">
+        <test-method status="PASS" signature="foo_first()[pri:0, instance:TestNG_Classes.First_Class@7ce6a65d]" name="foo_first" duration-ms="15054" started-at="2021-12-23T16:48:28 IST" finished-at="2021-12-23T16:48:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- foo_first -->
       </class> <!-- TestNG_Classes.First_Class -->
       <class name="TestNG_Classes.Second_Class">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_Classes.Second_Class@5bcea91b]" name="f" duration-ms="8476" started-at="2021-12-23T14:57:29 IST" finished-at="2021-12-23T14:57:38 IST">
+        <test-method status="PASS" signature="foo_second()[pri:0, instance:TestNG_Classes.Second_Class@5bcea91b]" name="foo_second" duration-ms="9578" started-at="2021-12-23T16:48:43 IST" finished-at="2021-12-23T16:48:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- foo_second -->
       </class> <!-- TestNG_Classes.Second_Class -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

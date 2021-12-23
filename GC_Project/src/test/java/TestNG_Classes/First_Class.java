@@ -10,7 +10,7 @@ public class First_Class
   private static WebDriver driver = null;
 	 
   @Test
-  public void f() 
+  public void foo_first() 
   {
 	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aayushi\\eclipse-workspace\\GC_Project\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -19,6 +19,8 @@ public class First_Class
 		
 		//send the text over google search text box
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("howstuffworks");
+		System.out.println("Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+		
 		driver.close();
   }
 }

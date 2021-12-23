@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNG_Classes.Second_Class" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNG_Classes.First_Class" hash-for-method="foo_first">foo_first</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNG_Classes.First_Class" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNG_Classes.Second_Class" hash-for-method="foo_second">foo_second</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,9 +132,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="foo_second">
+                  </a> <!-- foo_second -->
+                  <span class="method-name">foo_second</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,9 +147,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="foo_first">
+                  </a> <!-- foo_first -->
+                  <span class="method-name">foo_first</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,18 +209,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
+data.setCell(0, 1, 'foo_first')
 data.setCell(0, 2, 'TestNG_Classes.First_Class')
-data.setCell(0, 3, 9630);
+data.setCell(0, 3, 15054);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'f')
+data.setCell(1, 1, 'foo_second')
 data.setCell(1, 2, 'TestNG_Classes.Second_Class')
-data.setCell(1, 3, 8476);
+data.setCell(1, 3, 9578);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -248,15 +248,15 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG_Classes.First_Class</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">f</span>
+                <span class="method-name">foo_first</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG_Classes.Second_Class</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">9636 ms</span>
+                <span class="method-name">foo_second</span>
+                <span class="method-start">15092 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
